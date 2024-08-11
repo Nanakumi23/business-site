@@ -1,5 +1,61 @@
+/* nav stles */
 nav ul{
+    width: 25%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    position:relative;
+    left: 65%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    
+}
+
+ul a{
     text-decoration: none;
+}
+nav img{
+    width: 60px;
+    height:50px;
+}
+
+.first-section{
+   border: solid red 1px;
+
+  background-image: url(./images/IMG_8176.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height: 700px;
+
+}
+
+.Testimonials{
+    border: solid red 1px;
+    width: 95%; 
+    height: 300px;
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(4,2fr);
+    column-gap: 10px;
+    margin: 20px;
+
+
+}
+
+.grid-item{ 
+    border: solid red 1px;
+    text-align: center;
+    height: 180px;
+    margin-top: 20px;
+
+}
+
+.grid-item-5{
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid red 1px
+     
 }
